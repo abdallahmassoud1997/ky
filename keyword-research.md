@@ -1,5 +1,7 @@
-name: keyword-research-v2
-description: >
+# Name: keyword-research-v2
+---
+
+# Description:
   Comprehensive SEO keyword research skill. Use this whenever a user asks for keyword ideas,
   keyword lists, keyword strategy, SEO content planning, keyword clustering, keyword mapping,
   search intent analysis, topical authority planning, or any form of "what keywords should I
