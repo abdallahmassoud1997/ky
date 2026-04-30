@@ -1,14 +1,11 @@
-# Name: keyword-research-v2
+# Name: keyword-research-v3
 ---
 
 # Description:
-  Comprehensive SEO keyword research skill. Use this whenever a user asks for keyword ideas,
-  keyword lists, keyword strategy, SEO content planning, keyword clustering, keyword mapping,
-  search intent analysis, topical authority planning, or any form of "what keywords should I
-  target." Trigger even if the user says things like "what should I write about for SEO",
-  "help me find keywords", "build my content strategy", or "which keywords should my site rank
-  for." This skill handles everything from seed expansion to intent classification, clustering,
-  pillar page mapping, and prioritized output — all without live data tools.
+A Comprehensive SEO keyword research skill. Use this whenever a user asks for keyword ideas, 
+keyword lists, keyword strategy, keyword clustering, keyword mapping, search intent analysis, 
+and topical authority planning. This skill handles everything from seed expansion to intent classification, 
+clustering, pillar page mapping, and prioritized output.
 ---
  
 # Keyword Research Skill
