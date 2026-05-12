@@ -45,7 +45,7 @@ proceeding.
  
 ## Step 1 — Keyword Expansion
  
-Generate a minimum of **60 keywords**, covering all of the following categories:
+Generate a minimum of **50 keywords**, covering all of the following categories:
  
 | Category | Examples |
 |---|---|
