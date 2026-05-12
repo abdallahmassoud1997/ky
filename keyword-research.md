@@ -52,7 +52,7 @@ Generate a minimum of **60 keywords**, covering all of the following categories:
 | **A. Core / Head Terms** | Primary topic keywords, 1–2 words |
 | **B. Long-Tail Variants** | 3–6 word phrases, more specific intent |
 | **C. Commercial Investigation** | best, top, reviews, comparison, vs, alternative |
-| **D. Transactional** | pricing, cost, buy, hire, quote, book, get started |
+| **D. Transactional** | pricing, cost, buy, hire, quote, book, enroll, get started |
 | **E. Problem-Based** | how to, why, fix, improve, strategy, tips |
 | **F. Informational / Educational** | guide, tutorial, checklist, template, what is |
 | **G. Competitor Alternatives** | "[Competitor] alternative", "[X] vs [Y]" |
