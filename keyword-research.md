@@ -29,17 +29,17 @@ Before generating any keywords, confirm you have all required inputs. If any are
 for them explicitly — do not guess or proceed without them.
  
 **Required:**
-1. **Topic / Niche** — The subject area or industry (e.g., "SaaS project management tools")
-2. **Seed Keyword(s)** — One or more starting keywords (e.g., "project management software")
-3. **Target Country** — Where the audience is located (e.g., "United States")
-4. **Target Language** — Language of the content (e.g., "English")
+1. **Topic / Niche** — The subject area or industry (e.g., "diving")
+2. **Seed Keyword(s)** — One or more starting keywords (e.g., "scuba diving, diving courses, diving Hurghada")
+3. **Target Country/City** — Where the audience is located (e.g., "Egypt/Red Sea/Hurghada")
+4. **Target Language** — Language of the content (e.g., "English"). Possibly note “if bilingual, we may run separate keyword lists per language.”
 **Optional (ask if relevant):**
-5. **Business Type** — B2B, B2C, local, e-commerce, SaaS, service, etc.
-6. **Target Audience** — Who the content is for (e.g., "small business owners")
+5. **Business Type** — local dive shop, liveaboard operator, diving center, dive travel agency, etc.
+6. **Target Audience** — Who the content is for (e.g., "beginner scuba divers, certified divers, family vacationers to Hurghada, wreck divers")
 7. **Competitor URLs** — 1–3 competitors to generate alternative/comparison keywords
  
-If inputs are too broad (e.g., "technology"), ask the user to narrow the niche before
-proceeding. See [Edge Cases](#edge-cases) for handling guidance.
+If inputs are too broad (e.g., "diving"), ask the user to narrow the niche before
+proceeding.
  
 ---
  
