@@ -35,7 +35,7 @@ for them explicitly — do not guess or proceed without them.
 4. **Target Language** — Language of the content (e.g., "English"). Possibly note “if bilingual, we may run separate keyword lists per language.”
 **Optional (ask if relevant):**
 5. **Business Type** — local dive shop, liveaboard operator, diving center, dive travel agency, etc.
-6. **Target Audience** — Who the content is for (e.g., "beginner scuba divers, certified divers, family vacationers to Hurghada, wreck divers")
+6. **Target Audience** — Who the content is for (e.g., "beginner snorkelers, certified divers, family vacationers to Hurghada, adventure travelers")
 7. **Competitor URLs** — 1–3 competitors to generate alternative/comparison keywords
  
 If inputs are too broad (e.g., "diving"), ask the user to narrow the niche before
