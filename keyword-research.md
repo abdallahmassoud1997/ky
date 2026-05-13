@@ -124,7 +124,7 @@ Assign a score using this logic — apply strictly in order:
 | **1** | Too broad, too competitive with no realistic opportunity, or low business value |
  
 **Important:** Weighted is about business value and ranking opportunity — not just volume.
-A low-volume, high-converting BOFU keyword always beats a high-volume TOFU keyword.
+A low-volume, high-converting Transactional keyword always beats a high-volume Informational keyword.
  
 ---
  
@@ -228,7 +228,6 @@ Always include all five sections:
 **Example Output A rows (abbreviated):**
  
 | Keyword | Cluster | Intent | Vol. | Difficulty | Weighted | Page Type |
-|---|---|---|---|---|---|---|---|---|
 | project management software | Core | Commercial | Very High | High | 4 | Core Page |
  
 **Example Output B (one cluster):**
