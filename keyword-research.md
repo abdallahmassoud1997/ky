@@ -1,5 +1,5 @@
-# Name: keyword-research-v3
 ---
+# Name: keyword-research-v3
 
 # Description:
 A Comprehensive SEO keyword research skill. Use this whenever a user asks for keyword ideas, 
