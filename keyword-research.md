@@ -112,18 +112,18 @@ output exact numeric values.
 `Low` | `Medium` | `High`
 (Based on: head terms = harder, long-tail = easier, branded/niche = varies)
  
-### Priority Score (1–5)
+### Weighted Score (1–5)
 Assign a score using this logic — apply strictly in order:
  
 | Score | Criteria |
 |---|---|
-| **5** | BOFU + Transactional + high commercial relevance + realistic ranking opportunity |
-| **4** | MOFU + Commercial + strong buying signal |
-| **3** | TOFU + Informational + strong topical authority or content gap value |
-| **2** | Weak or unclear intent, tangential relevance |
+| **5** | Transactional + very high topical relevance + strong conversion intent + realistic ranking opportunity |
+| **4** | Commercial + high topical relevance + clear buying signal |
+| **3** | Informational + strong topical relevance + strong topical authority or content gap value |
+| **2** | Weak or unclear intent, moderate topical relevance with limited business value |
 | **1** | Too broad, too competitive with no realistic opportunity, or low business value |
  
-**Important:** Priority is about business value and ranking opportunity — not just volume.
+**Important:** Weighted is about business value and ranking opportunity — not just volume.
 A low-volume, high-converting BOFU keyword always beats a high-volume TOFU keyword.
  
 ---
@@ -137,18 +137,16 @@ Always produce **all three outputs** in this exact order and structure.
 ### OUTPUT A — Keyword Table
  
 ```
-| Keyword | Cluster | Intent | Funnel | Vol. | CPC | Difficulty | Priority | Page Type |
-|---------|---------|--------|--------|------|-----|------------|----------|-----------|
+| Keyword | Cluster | Intent | Vol. | Difficulty | Weighted | Page Type |
+|---------|---------|--------|------|------------|----------|-----------|
 ```
  
 **Allowed values per column:**
 - **Intent:** Informational / Commercial / Transactional / Navigational
-- **Funnel:** TOFU / MOFU / BOFU
-- **Vol.:** Very Low / Low / Medium / High / Very High
-- **CPC:** Low / Medium / High / Very High
+- **Vol.:** Low / Medium / High / Very High
 - **Difficulty:** Low / Medium / High
-- **Priority:** 1 / 2 / 3 / 4 / 5
-- **Page Type:** Landing Page / Service Page / Blog Post / Category Page / Comparison Page / FAQ Page
+- **Weighted:** 1 / 2 / 3 / 4 / 5
+- **Page Type:** Core Page (e.g., "diving center") / Hub-Service Page (e.g., "PADI Courses, Liveaboards") / Sub-Service Page (e.g., "Open Water Course, Itineraries") / Blog Post
 ---
  
 ### OUTPUT B — Cluster + Pillar Page Map
@@ -159,7 +157,6 @@ For each cluster, output this block:
 ## Cluster: [Cluster Name]
 - Pillar Keyword: [keyword]
 - Intent: [intent]
-- Funnel Stage: [stage]
 - Page Type: [page type]
 - Suggested URL Slug: /[slug]
 - Supporting Keywords: [comma-separated list]
