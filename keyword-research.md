@@ -76,10 +76,6 @@ For every keyword, assign **both** of the following:
 - `Commercial` — User is researching before buying
 - `Transactional` — User is ready to act (buy, sign up, hire)
 - `Navigational` — User is looking for a specific brand or page
-**Funnel Stage:**
-- `TOFU` (Top of Funnel) — Awareness, problem discovery
-- `MOFU` (Middle of Funnel) — Evaluation, comparison
-- `BOFU` (Bottom of Funnel) — Decision, conversion
 ---
  
 ## Step 3 — Clustering
@@ -107,19 +103,10 @@ output exact numeric values.
 ### Estimated Search Volume
 | Label | Range |
 |---|---|
-| Very Low | 0–50 searches/mo |
-| Low | 50–200 |
-| Medium | 200–1,000 |
-| High | 1,000–5,000 |
-| Very High | 5,000+ |
- 
-### Estimated CPC
-| Label | Range |
-|---|---|
-| Low | $0.10–$1.00 |
-| Medium | $1.00–$5.00 |
-| High | $5.00–$20.00 |
-| Very High | $20.00+ |
+| Low | 0–10 searches/mo |
+| Medium | 10–100 |
+| High | 100–1K |
+| Very High | 1K–10K |
  
 ### Estimated Difficulty
 `Low` | `Medium` | `High`
