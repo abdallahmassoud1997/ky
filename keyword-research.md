@@ -112,19 +112,19 @@ output exact numeric values.
 `Low` | `Medium` | `High`
 (Based on: head terms = harder, long-tail = easier, branded/niche = varies)
  
-### Priority Score (1–5)
+### Weighted Score (1–5)
 Assign a score using this logic — apply strictly in order:
  
 | Score | Criteria |
 |---|---|
-| **5** | BOFU + Transactional + high commercial relevance + realistic ranking opportunity |
-| **4** | MOFU + Commercial + strong buying signal |
-| **3** | TOFU + Informational + strong topical authority or content gap value |
-| **2** | Weak or unclear intent, tangential relevance |
+| **5** | Transactional + very high topical relevance + strong conversion intent + realistic ranking opportunity |
+| **4** | Commercial + high topical relevance + clear buying signal |
+| **3** | Informational + strong topical relevance + strong topical authority or content gap value |
+| **2** | Weak or unclear intent, moderate topical relevance with limited business value |
 | **1** | Too broad, too competitive with no realistic opportunity, or low business value |
  
-**Important:** Priority is about business value and ranking opportunity — not just volume.
-A low-volume, high-converting BOFU keyword always beats a high-volume TOFU keyword.
+**Important:** Weighted is about business value and ranking opportunity — not just volume.
+A low-volume, high-converting Transactional keyword always beats a high-volume Informational keyword.
  
 ---
  
