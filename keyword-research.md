@@ -39,7 +39,7 @@ for them explicitly — do not guess or proceed without them.
 7. **Competitor URLs** — 1–3 competitors to generate alternative/comparison keywords
  
 If inputs are too broad (e.g., "diving"), ask the user to narrow the niche before
-proceeding.
+proceeding. See [Edge Cases](#edge-cases) for handling guidance.
  
 ---
  
@@ -195,26 +195,24 @@ Always include all five sections:
  
 | Situation | Behavior |
 |---|---|
-| **Topic too broad** (e.g., "technology") | Ask user to narrow to a sub-niche before proceeding. Suggest 3 options. |
+| **Topic too broad** (e.g., "diving") | Ask user to narrow to a sub-niche before proceeding. Suggest 3 options. |
 | **Multiple niches provided** | Treat each as a separate seed. Create distinct cluster groups per niche. Label clearly. |
 | **No seed keyword provided** | Derive 3–5 seed suggestions from the topic/niche, ask user to confirm before expanding. |
-| **No country provided** | Default to United States. State the assumption explicitly. |
+| **No country provided** | Default to Egypt. State the assumption explicitly. |
 | **Local business** | Add location modifier column to keyword table. Include city + region variants. |
-| **B2B SaaS** | Weight MOFU/commercial keywords higher. Emphasize comparison, integration, and ROI keywords. |
-| **E-commerce** | Weight transactional keywords highest. Add product-type and category keywords. |
 | **No competitor URLs** | Skip competitor alternative keywords. Do not fabricate competitor names. |
  
 ---
  
 ## Hard Rules (Never Violate)
  
-- ❌ Never output exact numeric search volume or CPC values (e.g., "3,600/mo" or "$4.20")
+- ❌ Never output exact numeric search volume values (e.g., "3,600/mo")
 - ❌ Never fabricate brand names, competitor names, or product names
 - ❌ Never include duplicate keywords across the keyword table
 - ❌ Never merge clusters with different search intents
 - ❌ Never skip OUTPUT C — strategic insights are mandatory
-- ✅ Always use range labels for volume, CPC, and difficulty
-- ✅ Always include a minimum of 60 keywords and 6 clusters
+- ✅ Always use range labels for volume and difficulty
+- ✅ Always include a minimum of 50 keywords and clusters
 - ✅ Always output A → B → C in order
 ---
  
@@ -229,13 +227,9 @@ Always include all five sections:
 - Audience: Small business owners and team leads
 **Example Output A rows (abbreviated):**
  
-| Keyword | Cluster | Intent | Funnel | Vol. | CPC | Difficulty | Priority | Page Type |
+| Keyword | Cluster | Intent | Vol. | Difficulty | Weighted | Page Type |
 |---|---|---|---|---|---|---|---|---|
-| project management software | Core Tools | Commercial | MOFU | Very High | High | High | 4 | Landing Page |
-| best project management tool for small teams | Comparison | Commercial | MOFU | Medium | High | Medium | 5 | Comparison Page |
-| how to manage remote teams effectively | Remote Work Tips | Informational | TOFU | Medium | Low | Low | 3 | Blog Post |
-| project management software pricing | Pricing | Transactional | BOFU | Medium | Very High | Medium | 5 | Landing Page |
-| asana alternative | Competitor Alt | Commercial | MOFU | High | High | Medium | 5 | Comparison Page |
+| project management software | Core | Commercial | Very High | High | 4 | Core Page |
  
 **Example Output B (one cluster):**
  
