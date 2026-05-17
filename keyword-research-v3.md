@@ -24,22 +24,33 @@ perform site audits, or produce schema markup. For those, use the appropriate de
  
 ## Step 0 — Collect Required Inputs
  
-Before generating any keywords, confirm you have all required inputs. If any are missing, ask
-for them explicitly — do not guess or proceed without them.
+Before generating any keywords, confirm you have all the required inputs. If any are missing, ask
+for them in a single message — do not guess or proceed without them.
  
 **Required:**
 1. **Topic / Niche** — The subject area or industry (e.g., "diving")
-2. **Seed Keyword(s)** — One or more starting keywords (e.g., "scuba diving, diving courses, diving Hurghada")
-3. **Target Country/City** — Where the audience is located (e.g., "Egypt/Red Sea/Hurghada")
+2. **Seed Keyword(s)** — One or more starting keywords (e.g., "scuba diving, diving courses")
+3. **Target Country/City** — Where the audience is located (e.g., "Egypt/Hurghada")
 4. **Target Language** — Language of the content (e.g., "English"). Possibly note “if bilingual, we may run separate keyword lists per language.”
-**Optional (ask if relevant):**
 5. **Business Type** — local dive shop, liveaboard operator, diving center, dive travel agency, etc.
-6. **Target Audience** — Who the content is for (e.g., "beginner snorkelers, certified divers, family vacationers to Hurghada, adventure travelers")
+6. **Target Audience** — Who the content is for (e.g., "beginner divers, family vacationers, certified divers looking for liveaboards")
 7. **Competitor URLs** — 1–3 competitors to generate alternative/comparison keywords
  
 If inputs are too broad (e.g., "diving"), ask the user to narrow the niche before
 proceeding. See [Edge Cases](#edge-cases) for handling guidance.
- 
+
+If all required inputs are present:
+Echo back a brief input summary before proceeding:
+"Starting keyword research with the following inputs:
+Topic: [X]
+Seed Keywords: [X]
+Location: [X]
+Language: [X]
+Business Type: [X]
+Audience: [X]
+Competitors: [X]"
+Then proceed immediately to Step 1. 
+
 ---
  
 ## Step 1 — Keyword Expansion
@@ -56,7 +67,7 @@ Generate a minimum of **50 keywords**, covering all of the following categories:
 | **F. Informational / Educational** | guide, tutorial, checklist, template, what is |
 | **G. Competitor Alternatives** | "[Competitor] alternative", "[X] vs [Y]" |
 | **H. Location Modifiers** | Country, major cities, "near me" — only if local intent is relevant |
-| **I. Industry-Specific Modifiers** | Niche terminology, job titles, tools, certifications |
+| **I. Industry-Specific Modifiers** | Niche terminology, tools, certifications |
  
 **Expansion Rules:**
 - Include both short-tail (1–2 words) and long-tail (3–6 words) keywords
@@ -71,18 +82,20 @@ Generate a minimum of **50 keywords**, covering all of the following categories:
 For every keyword, assign **both** of the following:
  
 **Search Intent:**
-- `Informational` — User wants to learn something
-- `Commercial` — User is researching before buying
-- `Transactional` — User is ready to act (buy, sign up, hire)
+- `Informational` — User wants to learn, understand, or explore a topic
+- `Commercial` — User is researching options before making a decision
+- `Transactional` — User is ready to act — book, buy, enroll, contact, hire
 - `Navigational` — User is looking for a specific brand or page
 ---
  
 ## Step 3 — Clustering
  
 Group keywords into **thematic clusters** based on:
-1. Shared search intent
-2. Topical similarity (would Google rank the same page for these?)
-3. Funnel stage alignment
+1. Same search intent — Informational, Commercial, or Transactional (never mix)
+2. Same SERP target — Would Google plausibly rank a single page for both keywords?
+Use this test: if targeting both keywords would require two different page structures or two different CTAs, they belong in separate clusters.
+3. Same topical scope — Keywords address the same subject at the same level of specificity (e.g., do not mix course-level keywords with certification-body overview keywords)
+
 **Each cluster must contain:**
 - **Cluster Name** — A short, descriptive label
 - **Pillar Keyword** — The single highest-value, most representative keyword
@@ -102,16 +115,15 @@ output exact numeric values.
 ### Estimated Search Volume
 | Label | Range |
 |---|---|
-| Low | 0–10 searches/mo |
-| Medium | 10–100 |
-| High | 100–1K |
-| Very High | 1K–10K |
- 
-### Estimated Difficulty
-`Low` | `Medium` | `High`
-(Based on: head terms = harder, long-tail = easier, branded/niche = varies)
+| Medium | 0–10 searches/mo |
+| High | 10–100 |
+| Very High | 100–1K |
+| Massive | 1K–10K |
  
 ### Weighted Score (1–5)
+This score measures business value and realistic ranking opportunity — not search volume.
+A low-volume, high-converting Transactional keyword always outscores a high-volume Informational keyword with no conversion path.
+
 Assign a score using this logic — apply strictly in order:
  
 | Score | Criteria |
@@ -121,9 +133,6 @@ Assign a score using this logic — apply strictly in order:
 | **3** | Informational + strong topical relevance + strong topical authority or content gap value |
 | **2** | Weak or unclear intent, moderate topical relevance with limited business value |
 | **1** | Too broad, too competitive with no realistic opportunity, or low business value |
- 
-**Important:** Weighted is about business value and ranking opportunity — not just volume.
-A low-volume, high-converting Transactional keyword always beats a high-volume Informational keyword.
  
 ---
  
@@ -136,16 +145,15 @@ Always produce **all three outputs** in this exact order and structure.
 ### OUTPUT A — Keyword Table
  
 ```
-| Keyword | Cluster | Intent | Vol. | Difficulty | Weighted | Page Type |
-|---------|---------|--------|------|------------|----------|-----------|
+| Keyword | Cluster | Intent | Vol. | Weighted | Page Type |
+|---------|---------|--------|------|----------|-----------|
 ```
  
 **Allowed values per column:**
 - **Intent:** Informational / Commercial / Transactional / Navigational
 - **Vol.:** Low / Medium / High / Very High
-- **Difficulty:** Low / Medium / High
 - **Weighted:** 1 / 2 / 3 / 4 / 5
-- **Page Type:** Core Page (e.g., "diving center") / Hub-Service Page (e.g., "PADI Courses, Liveaboards") / Sub-Service Page (e.g., "Open Water Course, Itineraries") / Blog Post
+- **Page Type:** Core Page (e.g., "diving center") / Hub-Service Page (e.g., "PADI Courses, Liveaboards") / Sub-Service Page (e.g., "Open Water Course, Hurghada Diving Safari, 7-Night Red Sea Liveaboard") / Blog Post
 ---
  
 ### OUTPUT B — Cluster + Pillar Page Map
@@ -157,7 +165,7 @@ For each cluster, output this block:
 - Pillar Keyword: [keyword]
 - Intent: [intent]
 - Page Type: [page type]
-- Suggested URL Slug: /[slug]
+- Suggested URL Slug: /[slug — lowercase, hyphens only, no stop words]
 - Supporting Keywords: [comma-separated list]
 - Content Angle: [1–2 sentence description of the angle this page should take]
 - Suggested Internal Links: [list 2–3 other clusters/pages this should link to]
