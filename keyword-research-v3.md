@@ -181,18 +181,12 @@ Always include all five sections:
 ## Strategic Insights
  
 ### 1. Top 5 Quick Wins
-[Keywords that are low-difficulty, medium+ volume, and high priority — fastest ranking opportunities]
+[Keywords that are low-difficulty, low or medium+ volume, and high priority — fastest ranking opportunities]
  
-### 2. Best BOFU Clusters
-[Clusters most likely to drive conversions — list cluster name + pillar keyword]
- 
-### 3. Content Gaps
+### 2. Content Gaps
 [Topics or intents not covered by existing clusters that represent missed opportunity]
  
-### 4. Recommended Publishing Order (First 10 Pages)
-[Ordered list with cluster name, page type, and URL slug]
- 
-### 5. Topical Authority Notes
+### 3. Topical Authority Notes
 [Which clusters build the most topical depth and should be prioritized for E-E-A-T signals]
 ```
  
@@ -226,31 +220,31 @@ Always include all five sections:
 ## Example
  
 **Input:**
-- Topic: Project management software
-- Seed Keyword: project management tool
-- Country: United States
+- Topic: Scuba Diving
+- Seed Keyword: Diving Courses
+- Country: Egypt/Hurghada
 - Language: English
-- Business Type: B2B SaaS
-- Audience: Small business owners and team leads
+- Business Type: Local dive center with liveaboard operations
+- Audience: Beginner divers, divers seeking diving courses, tourist families, adventure travelers booking liveaboards
 **Example Output A rows (abbreviated):**
  
-| Keyword | Cluster | Intent | Vol. | Difficulty | Weighted | Page Type |
-| project management software | Core | Commercial | Very High | High | 4 | Core Page |
+| Keyword | Cluster | Intent | Vol. | Weighted | Page Type |
+| Open Water Course | Diving Course | Transactional | High | 4 | Sub-Service Page |
  
 **Example Output B (one cluster):**
  
 ```
-## Cluster: Pricing & Plans
-- Pillar Keyword: project management software pricing
+## Cluster: Diving Courses
+- Pillar Keyword: Open Water Course Hurghada
 - Intent: Transactional
-- Funnel Stage: BOFU
-- Page Type: Landing Page
-- Suggested URL Slug: /project-management-software/pricing
-- Supporting Keywords: project management tool cost, cheap project management software,
-  free project management tool, project management software free trial
-- Content Angle: Transparent pricing comparison targeting decision-ready buyers evaluating
-  plans. Include a pricing table, feature comparison, and free trial CTA.
-- Suggested Internal Links: /features, /compare, /get-started
+- Page Type: Sub-Service Page
+- Suggested URL Slug: /open-water-course
+- Supporting Keywords: book OWD course Hurghada, enroll open water course,
+PADI courses Red Sea review, how to get PADI certified, Open Water vs Discover Scuba, how long does PADI Open Water take
+- Content Angle: Targets first-time divers and vacationers ready to get certified during their Hurghada trip.
+Covers course structure, what's included, pool vs open water sessions, and certification validity worldwide.
+Primary CTA: "Book your PADI Open Water Course"
+- Suggested Internal Links: /beginner-diving-courses, /dive-center-hurghada, /red-sea-dive-sites
 ```
  
 ---
