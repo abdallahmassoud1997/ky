@@ -1,5 +1,5 @@
 ---
-name: keyword-research-v3
+name: keyword-research-v5
 description: >
   A Comprehensive SEO keyword research skill. Use this whenever a user asks for keyword ideas,
   keyword lists, keyword strategy, keyword clustering, keyword mapping, search intent analysis,
