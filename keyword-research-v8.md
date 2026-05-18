@@ -29,7 +29,7 @@ Before generating any keywords, confirm you have all the required inputs. If any
 for them in a single message — do not guess or proceed without them.
  
 **Required:**
-1.**Website URL** — The business's website (e.g., "https://example.com").
+1. **Website URL** — The business's website (e.g., "https://example.com").
 2. **Topic / Niche** — The subject area or industry (e.g., "diving")
 3. **Seed Keyword(s)** — One or more starting keywords (e.g., "scuba diving, diving courses")
 4. **Target Country/City** — Where the audience is located (e.g., "Egypt/Hurghada")
