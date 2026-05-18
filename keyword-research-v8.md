@@ -5,7 +5,7 @@ description: >
   A Comprehensive SEO keyword research skill. Use this whenever a user asks for keyword ideas,
   keyword lists, keyword strategy, keyword clustering, keyword mapping, search intent analysis,
   and topical authority planning. This skill handles everything from seed expansion to intent classification,
-  clustering, pillar page mapping, and prioritized output.
+  topic-based clustering, and prioritized output with strategic insights.
 ---
  
 # Keyword Research Skill
