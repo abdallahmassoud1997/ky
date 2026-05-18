@@ -30,14 +30,13 @@ for them in a single message — do not guess or proceed without them.
  
 **Required:**
 1. **Website URL** — The business's website (e.g., "https://example.com").
-2. **Topic / Niche** — The subject area or industry (e.g., "diving")
+2. **Niche** — The subject area or industry (e.g., "diving")
 3. **Seed Keyword(s)** — One or more starting keywords (e.g., "scuba diving, diving courses")
 4. **Target Country/City** — Where the audience is located (e.g., "Egypt/Hurghada")
 5. **Target Language** — Language of the content (e.g., "English"). Possibly note "if bilingual, we may run separate keyword lists per language."
 6. **Business Type** — local dive shop, liveaboard operator, diving center, dive travel agency, etc.
 7. **Target Audience** — Who the content is for (e.g., "beginner divers, family vacationers, certified divers looking for liveaboards")
-8. **Competitor URLs** — 1–3 competitors to generate alternative/comparison keywords
-9. **Topics List** — A list of the business's specific topics (e.g., "1. Scuba Diving, 2. Liveaboard, 3. Snorkeling, 4. Wreck Diving"). Each topic becomes the name of its keyword cluster. Note: If the user provides no topics at all, suggest 3–5 common topics based on the Business Type, and ask the user to confirm and rank them before proceeding.
+8. **Topics List** — A list of the business's specific topics (e.g., "Scuba Diving, Diving Courses, Snorkeling, Diving Trips, Diving Destinations"). Each topic becomes the name of its keyword cluster. Note: If the user provides no topics at all, suggest 3–5 common topics based on the Business Type, and ask the user to confirm and rank them before proceeding.
  
 If inputs are too broad (e.g., "diving"), ask the user to narrow the niche before
 proceeding. See [Edge Cases](#edge-cases) for handling guidance.
@@ -46,13 +45,12 @@ If all required inputs are present, echo back a brief input summary before proce
 
 > **Starting keyword research with the following inputs:**
 > - Website: [X]
-> - Topic: [X]
+> - Niche: [X]
 > - Seed Keywords: [X]
 > - Location: [X]
 > - Language: [X]
 > - Business Type: [X]
 > - Audience: [X]
-> - Competitors: [X]
 > - Topics: [X]
 
 Then proceed immediately to Step 1.
@@ -74,9 +72,8 @@ For each topic, generate keywords across these intent categories:
 | **D. Transactional** | pricing, cost, buy, hire, quote, book, enroll, get started |
 | **E. Problem-Based** | how to, why, fix, improve, strategy, tips |
 | **F. Informational / Educational** | guide, tutorial, checklist, template, what is |
-| **G. Competitor Alternatives** | "[Competitor] alternative", "[X] vs [Y]" |
-| **H. Location Modifiers** | Country, major cities, "near me" — only if local intent is relevant |
-| **I. Industry-Specific Modifiers** | Niche terminology, tools, certifications |
+| **G. Location Modifiers** | Country, major cities, "near me" — only if local intent is relevant |
+| **H. Industry-Specific Modifiers** | Niche terminology, tools, certifications |
 
 **Expansion Rules:**
 - Include both short-tail (1–2 words) and long-tail (3–6 words) keywords
@@ -99,7 +96,7 @@ For every keyword, assign **both** of the following:
  
 ## Step 3 — Clustering
  
-Each topic provided by the user is its own cluster. The **Cluster Name = Topic Name** (e.g., Topic "Scuba Diving" → Cluster "Scuba Diving"). Do not create sub-clusters or merge topics.
+Each topic provided by the user is its own cluster. The **Cluster Name = Topic Name** (e.g., Topic "Scuba Diving Hurghada" → Cluster "Scuba Diving"). Do not create sub-clusters or merge topics.
 
 **Each cluster must contain:**
 - **Cluster Name** — Identical to the topic name
@@ -216,7 +213,6 @@ Note which topics have the strongest cross-linking potential.]
 | **No seed keyword provided** | Derive 3–5 seed suggestions from the topic/niche, ask user to confirm before expanding. |
 | **No country provided** | Default to Egypt. State the assumption explicitly. |
 | **Local business** | Add location modifier column to keyword table. Include city + region variants. |
-| **No competitor URLs** | Skip competitor alternative keywords. Do not fabricate competitor names. |
 | **No topics provided** | Suggest 3–5 common topics based on Business Type. Ask user to confirm and rank before proceeding. |
 | **Only 1–2 topics provided** | Generate 20 keywords per topic to reach the 50-keyword minimum. |
 ---
@@ -242,13 +238,12 @@ Note which topics have the strongest cross-linking potential.]
 ## Example
  
 **Input:**
-- Topic: Scuba Diving
+- Niche: Scuba Diving
 - Seed Keyword: Diving Courses, Liveaboard Red Sea
 - Country: Egypt/Hurghada
 - Language: English
 - Business Type: Local dive center with liveaboard operations
 - Audience: Beginner divers, divers seeking diving courses, tourist families, adventure travelers booking liveaboards
-- Competitors: redsea-diving.com, divehurghada.com
 - Topics: Scuba Diving, Liveaboard, Snorkeling
 
 ---
