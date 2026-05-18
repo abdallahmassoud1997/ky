@@ -1,5 +1,6 @@
 ---
-name: keyword-research-v7
+name: keyword-research-v8
+
 description: >
   A Comprehensive SEO keyword research skill. Use this whenever a user asks for keyword ideas,
   keyword lists, keyword strategy, keyword clustering, keyword mapping, search intent analysis,
@@ -28,14 +29,15 @@ Before generating any keywords, confirm you have all the required inputs. If any
 for them in a single message — do not guess or proceed without them.
  
 **Required:**
-1. **Topic / Niche** — The subject area or industry (e.g., "diving")
-2. **Seed Keyword(s)** — One or more starting keywords (e.g., "scuba diving, diving courses")
-3. **Target Country/City** — Where the audience is located (e.g., "Egypt/Hurghada")
-4. **Target Language** — Language of the content (e.g., "English"). Possibly note "if bilingual, we may run separate keyword lists per language."
-5. **Business Type** — local dive shop, liveaboard operator, diving center, dive travel agency, etc.
-6. **Target Audience** — Who the content is for (e.g., "beginner divers, family vacationers, certified divers looking for liveaboards")
-7. **Competitor URLs** — 1–3 competitors to generate alternative/comparison keywords
-8. **Topics List** — A list of the business's specific topics (e.g., "1. Scuba Diving, 2. Liveaboard, 3. Snorkeling, 4. Wreck Diving"). Each topic becomes the name of its keyword cluster. Note: If the user provides no topics at all, suggest 3–5 common topics based on the Business Type, and ask the user to confirm and rank them before proceeding.
+1.**Website URL** — The business's website (e.g., "https://example.com").
+2. **Topic / Niche** — The subject area or industry (e.g., "diving")
+3. **Seed Keyword(s)** — One or more starting keywords (e.g., "scuba diving, diving courses")
+4. **Target Country/City** — Where the audience is located (e.g., "Egypt/Hurghada")
+5. **Target Language** — Language of the content (e.g., "English"). Possibly note "if bilingual, we may run separate keyword lists per language."
+6. **Business Type** — local dive shop, liveaboard operator, diving center, dive travel agency, etc.
+7. **Target Audience** — Who the content is for (e.g., "beginner divers, family vacationers, certified divers looking for liveaboards")
+8. **Competitor URLs** — 1–3 competitors to generate alternative/comparison keywords
+9. **Topics List** — A list of the business's specific topics (e.g., "1. Scuba Diving, 2. Liveaboard, 3. Snorkeling, 4. Wreck Diving"). Each topic becomes the name of its keyword cluster. Note: If the user provides no topics at all, suggest 3–5 common topics based on the Business Type, and ask the user to confirm and rank them before proceeding.
  
 If inputs are too broad (e.g., "diving"), ask the user to narrow the niche before
 proceeding. See [Edge Cases](#edge-cases) for handling guidance.
@@ -43,6 +45,7 @@ proceeding. See [Edge Cases](#edge-cases) for handling guidance.
 If all required inputs are present:
 Echo back a brief input summary before proceeding:
 "Starting keyword research with the following inputs:
+Website: [X]
 Topic: [X]
 Seed Keywords: [X]
 Location: [X]
