@@ -1,5 +1,5 @@
 ---
-name: keyword-research-v8
+name: keyword-research-v9
 
 description: >
   A Comprehensive SEO keyword research skill. Use this whenever a user asks for keyword ideas,
