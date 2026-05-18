@@ -42,19 +42,20 @@ for them in a single message — do not guess or proceed without them.
 If inputs are too broad (e.g., "diving"), ask the user to narrow the niche before
 proceeding. See [Edge Cases](#edge-cases) for handling guidance.
 
-If all required inputs are present:
-Echo back a brief input summary before proceeding:
-"Starting keyword research with the following inputs:
-Website: [X]
-Topic: [X]
-Seed Keywords: [X]
-Location: [X]
-Language: [X]
-Business Type: [X]
-Audience: [X]
-Competitors: [X]
-Topics: [X]"
-Then proceed immediately to Step 1. 
+If all required inputs are present, echo back a brief input summary before proceeding:
+
+> **Starting keyword research with the following inputs:**
+> - Website: [X]
+> - Topic: [X]
+> - Seed Keywords: [X]
+> - Location: [X]
+> - Language: [X]
+> - Business Type: [X]
+> - Audience: [X]
+> - Competitors: [X]
+> - Topics: [X]
+
+Then proceed immediately to Step 1.
 
 ---
  
