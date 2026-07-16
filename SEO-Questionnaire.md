@@ -1,6 +1,6 @@
 ---
-name: seo-client-questionnaire
-description: Generates a client-ready SEO onboarding questionnaire (.xlsx with dropdowns) from just a website URL and business niche (optionally a target country). Use this skill whenever the user wants to onboard a new SEO client, create a discovery form, intake form, or questionnaire for a new website/business, or mentions "SEO questionnaire," "discovery form," "onboarding form," or asks to prepare questions for a new client. Always trigger this for diving or real estate clients specifically, since dedicated reference question sets exist for those niches — but also trigger for any other industry, since the skill generates concise industry-specific questions on the fly using SEO best practices. Do not confuse with website-audit or website-brief-generator skills, which analyze an existing site rather than collect client info before onboarding.
+name: seo-questionnaire
+description: Generates a client-ready SEO onboarding questionnaire (.xlsx with dropdowns) from just a website URL and business niche (optionally a target country). Use this skill whenever the user mentions "SEO questionnaire". Always trigger this for diving or real estate clients specifically, since dedicated reference question sets exist for those niches — but also trigger for any other industry, since the skill generates concise industry-specific questions on the fly using SEO best practices.
 ---
 
 # SEO Client Questionnaire Generator
